@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/5f166de9b4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tradutor</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1>TRADUTOR</h1>
+      <div class="container">
+        <div class="selects">
+          <select class="select_from"></select>
+          <select class="select_to"></select>
+        </div>
+        <div class="text_areas">
+          <textarea
+            id="textarea_from"
+            rows="8"
+            placeholder="Digitar texto"
+          ></textarea>
+          <textarea
+            disabled
+            id="textarea_to"
+            rows="8"
+            placeholder="Tradução"
+          ></textarea>
+        </div>
+
+        <button id="btn_translate">TRADUZIR</button>
+      </div>
+    </main>
+
+    <script src="./dist/index.js"></script>
+  </body>
+</html>
